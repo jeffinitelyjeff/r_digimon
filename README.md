@@ -15,6 +15,7 @@ This subreddit stylesheet is predominantly an adaptation of [Naut 3.1](https://g
 - Adds custom height banner
 - Styles top buttons (hot, new, top, etc.) to match Naut's submit button
 - Adds large multi-line user flair
+- Moves timestamps to float right
 
 ## Minification Process
 

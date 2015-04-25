@@ -3202,6 +3202,7 @@ body {
   width: 32px !important;
   height: 32px !important;
   background-color: red; /* FIXME */
+  background: url(%%customsprites%%);
 }
 .tagline .author {
   position: absolute;
