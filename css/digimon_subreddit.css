@@ -3172,6 +3172,23 @@ body {
   border-bottom: 2px solid white;
 }
 
+/* Timestamp floating to right */
+/* ==> inspired by /r/pokemon */
+.link .tagline time {
+  font-size: small;
+  visibility: visible;
+  position: relative;
+  float: right;
+  top: -20px;
+  right: 0;
+}
+.link:hover .tagline time {
+  right: -1px;
+}
+.tagline .edited-timestamp {
+  visibility: hidden;
+}
+
 /* Large flair */
 /* ==> inspired by /r/pokemon */
 .tagline {
@@ -3185,16 +3202,6 @@ body {
   width: 32px !important;
   height: 32px !important;
   background-color: red; /* FIXME */
-}
-.tagline time {
-  visibility: visible;
-  position: absolute;
-  top: 18px;
-  left: 76px;
-  width: 300px;
-}
-.tagline .edited-timestamp {
-  visibility: hidden;
 }
 .tagline .author {
   position: absolute;
