@@ -3185,7 +3185,7 @@ body {
 .link:hover .tagline time {
   right: -1px;
 }
-.tagline .edited-timestamp {
+.link .tagline time.edited-timestamp {
   visibility: hidden;
 }
 
