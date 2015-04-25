@@ -3015,7 +3015,7 @@ div.titlebox span.number:after {content: " DigiDestined";}
  * START Customization added by /u/jeffinitelyjeff
  * vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 
-/* Hover Message on Downvote */
+/* Hover Message on Upvote */
 .arrow.up:before, .arrow.upmod:before {
   display: block;
   visibility: hidden;
