@@ -3257,6 +3257,18 @@ body {
   text-indent: 0;
 }
 
+/* User flair text displayed below username */
+/* ==> inspired by /r/pokemon */
+.comment .flair:after, .flair:after {
+  content: attr(title);
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 16px;
+  left: 42px;
+  text-indent: 0;
+}
+
 
 /* Old flair
 .flair {
