@@ -3201,8 +3201,35 @@ body {
 .expando-button {
   width: 32px !important;
   height: 32px !important;
-  background-color: red; /* FIXME */
-  background: url(%%customsprites%%);
+  background-image: url(%%customsprites%%) !important;
+  background-color: inherit !important;
+  border: 0;
+}
+.expando-button.selftext.collapsed {
+  background-position: 0 0;
+}
+.expando-button.selftext.collapsed:hover {
+  background-position: 32px 0;
+}
+.expando-button.selftext.expanded {
+  /* FIXME */
+  background-position: 0 0;
+}
+.expando-button.image.collapsed {
+  /* FIXME */
+  background-position: 0 0;
+}
+.expando-button.image.expanded {
+  /* FIXME */
+  background-position: 0 0;
+}
+.expando-button.video.collapsed {
+  /* FIXME */
+  background-position: 0 0;
+}
+.expando-button.video.expanded {
+  /* FIXME */
+  background-position: 0 0;
 }
 .tagline .author {
   position: absolute;
