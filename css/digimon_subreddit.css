@@ -3213,11 +3213,11 @@ body {
 }
 .expando-button.selftext.expanded {
   /* FIXME */
-  background-position: -65px 0;
+  background-position: -64px 0;
 }
 .expando-button.selftext.expanded:hover {
   /* FIXME */
-  background-position: -97px 0;
+  background-position: -96px 0;
 }
 .expando-button.image.collapsed {
   /* FIXME */
